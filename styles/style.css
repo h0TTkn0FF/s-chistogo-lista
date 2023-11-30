@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     display: flex;
 }
 
-.intro__main-text{
+.intro__main-text {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     list-style-type: disc;
 }
 
-.content-section__list-item{
+.content-section__list-item {
     word-wrap: normal;
     line-height: 21.6px;
     font-size: 16px;
