@@ -1,46 +1,37 @@
 @font-face {
-    src: local('EB Garamond Regular'),
-         local('EBGaramondRegular'),
-         local('eb-garamond-regular'),
-         url(/fonts/ebgaramondregular.ttf) format('ttf'),
-         url(/fonts/ebgaramondregular.woff) format('woff'),
-         url(/fonts/ebgaramondregular.woff2) format('woff2')
+    src: local('EB Garamond'),
+         url(../fonts/ebgaramondmedium.woff2) format('woff2'),
+         url(../fonts/ebgaramondmedium.woff) format('woff'),
+         url(../fonts/ebgaramondmedium.ttf) format('ttf')
     ;
-    font-family: 'EB Garamond Regular';
-    font-weight: 400;
-}
-
-@font-face {
-    src: local('EB Garamond Medium'),
-         local('EBGaramondMedium'),
-         local('eb-garamond-medium'),
-         url(/fonts/ebgaramondmedium.woff) format('woff'),
-         url(/fonts/ebgaramondmedium.woff2) format('woff2'),
-         url(/fonts/ebgaramondmedium.ttf) format('ttf')
-    ;
-    font-family: 'EB Garamond Medium';
+    font-family: 'EB Garamond';
     font-weight: 500;
 }
 
 @font-face {
-    src: local('Inter Regular'),
-         local('InterRegular'),
-         local('inter-regular'),
-         url(/fonts/interregular.ttf) format('ttf'),
-         url(/fonts/interregular.woff) format('woff'),
+    src: local('EB Garamond'),
+         url(../fonts/ebgaramondregular.woff2) format('woff2'),
+         url(../fonts/ebgaramondregular.woff) format('woff'),
+         url(../fonts/ebgaramondregular.ttf) format('ttf'),
     ;
-    font-family: 'Inter Regular';
+    font-family: 'EB Garamond';
     font-weight: 400;
 }
 
 @font-face {
-    src: local('Inter Bold'),
-        local('InterBold'),
-         local('inter-bold'),
-         url(/fonts/interbold.ttf) format('ttf'),
-         url(/fonts/interbold.woff) format('woff'),
-         url(/fonts/interbold.woff2) format('woff2')
+    src: local('Inter'),
+         url(../fonts/interbold.woff2) format('woff2'),
+         url(../fonts/interbold.woff) format('woff'),
+         url(../fonts/interbold.ttf) format('ttf')
     ;
-    font-family: 'Inter Bold';
-    font-weight: 700;
+    font-family: 'Inter';
+}
+
+@font-face {
+    src: local('Inter'),
+         url(../fonts/interregular.woff2) format('woff2'),
+         url(../fonts/interregular.woff) format('woof'),
+         url(../fonts/interregular.ttf) format('ttf')
+    ;
+    font-family: 'Inter';
 }
